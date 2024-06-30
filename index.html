@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-cyan-500">
+    <div class="container ml-40 h-screen w-screen">
+      <h1 class="text-lg">START YOUR FIRST QUIZ</h1>
+      <div class="col_hum mt-4">
+        <div class="question" id="col1">
+          <h1 class="mb-12">What is the opposite of Red?</h1>
+          <p>
+            <input type="radio" name="question1" value="Orange" /><label
+              >Orange</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="Black" /><label
+              >Black</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="Blue" /><label
+              >Blue</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="None" /><label
+              >None</label
+            >
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', 'None')">
+            Check the answer
+          </button>
+        </div>
+
+        <div class="question hidden" id="col2">
+          <h1 class="mb-12">When did Obama start his 2nd term as president?</h1>
+          <p>
+            <input type="radio" name="question1" value="2008" /><label
+              >2008</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="2013" /><label
+              >2013</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="2017" /><label
+              >2017</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="2004" /><label
+              >2004</label
+            >
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', '2013')">
+            Check the answer
+          </button>
+        </div>
+
+        <div class="question hidden" id="col3">
+          <h1 class="mb-12">Whats 9+10?</h1>
+          <p>
+            <input type="radio" name="question1" value="21" /><label>21</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="19" /><label>19</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="10" /><label>10</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="25" /><label>25</label>
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', '19')">
+            Check the answer
+          </button>
+        </div>
+
+        <div class="question hidden" id="col4">
+          <h1 class="mb-12">
+            Martha, Mary, May, Made Marvelous Milk. In that sentence who made
+            the milk? This is an easy and dumb question!
+          </h1>
+          <p>
+            <input type="radio" name="question1" value="Martha" /><label
+              >Martha</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="Mary" /><label
+              >Mary</label
+            >
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="question1"
+              value="Martha, Mary, May" /><label>Martha, Mary, May</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="May" /><label
+              >May</label
+            >
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', 'Mary')">
+            Check the answer
+          </button>
+        </div>
+
+        <div class="question hidden" id="col5">
+          <h1 class="mb-12">
+            Think Of your favorite animal, place, and color now say one of them!
+            What Did you say?
+          </h1>
+          <p>
+            <input type="radio" name="question1" value="Animal" /><label
+              >Animal</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="Place" /><label
+              >Place</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="Color" /><label
+              >Color</label
+            >
+          </p>
+          <p>
+            <input type="radio" name="question1" value="One of them" /><label
+              >One of them</label
+            >
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', 'One of them')">
+            Check the answer
+          </button>
+        </div>
+
+        <div class="question hidden" id="col6">
+          <h1 class="mb-12">
+            3 people go onto a bus, 3 more people come off, 6 people com on. 3
+            more people come on. How people are in the bus if 3 come on?
+          </h1>
+          <p>
+            <input type="radio" name="question1" value="8" /><label>8</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="6" /><label>6</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="12" /><label>12</label>
+          </p>
+          <p>
+            <input type="radio" name="question1" value="3" /><label>3</label>
+          </p>
+          <button
+            type="button"
+            class="answerbutton border-4 mt-4 text-white p-4 rounded-md"
+            onclick="checkAnswer('question1', '3')">
+            Check the answer
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
